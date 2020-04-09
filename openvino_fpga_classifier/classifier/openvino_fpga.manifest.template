@@ -36,6 +36,10 @@ fs.mount.opt.type = chroot
 fs.mount.opt.path = /opt
 fs.mount.opt.uri = file:/opt
 
+fs.mount.tmp.type = chroot
+fs.mount.tmp.path = /tmp
+fs.mount.tmp.uri = file:/tmp
+
 ## Mounts of fpga device files ##
 fs.mount.dev.type = chroot
 fs.mount.dev.path = /dev/intel-fpga-fme.0
