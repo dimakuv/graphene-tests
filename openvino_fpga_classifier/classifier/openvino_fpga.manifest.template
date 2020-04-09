@@ -177,6 +177,6 @@ sgx.allowed_files.detailed_report= file:benchmark_detailed_counters_report.csv
 sgx.allowed_files.detailed_report2= file:benchmark_average_counters_report.csv
 
 ## Demo ##
-sgx.allowed_files.demoinput= file:./input.jpg
+sgx.allowed_files.demoinput= file:input.jpg
 sgx.allowed_files.replay_attack= file:/tmp/replay_attack
 sgx.allowed_files.integrity_test= file:/tmp/integrity_test
