@@ -9,6 +9,7 @@ exec_target = $(manifests)
 # find /sys/devices/ -name "fpga"
 # The Makefile updates $(HARDLINK) in the manifest to point to the location of device file objects which may change from system to system
 
+# TODO: change the below DEVICEPATH
 DEVICEPATH = /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/fpga
 
 #extra_rules = -e 's:\$$(PYTHONDIR):$(PYTHON_INSTALL)/:g'

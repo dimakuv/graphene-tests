@@ -21,7 +21,7 @@ This was tested on a machine with SGX and Ubuntu 16.04.
     Copy Shared library dependencies to `./lib`
         Refer to the manifest section: `sgx.trusted_files.*` for information on what all shared libraries need to be copied.
 
-4. Configuration changes needed to Manifest or Makefile are marked with TODO.
+4. Configuration changes needed in the Manifest or Makefile are marked with "TODO" comments.
 
 # Quick Start
 

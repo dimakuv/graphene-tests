@@ -9,7 +9,6 @@ loader.env.PATH = /usr/bin:/bin
 #loader.debug_type = inline
 loader.debug_type = none
 
-# TODO: DEVICEPATH- Path to fpga device file. This should be updated by the developer in the Makefile. Refer Makefile
 fpga.devicepath = $(DEVICEPATH)/
 
 fs.mount.lib1.type = chroot
